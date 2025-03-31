@@ -246,12 +246,13 @@ div.galerie{
     width: 100%;
     display: inline-block;
     text-align: center;
-    background-color: black;
+    background-color: midnightblue;
 }
 
 
 div.galerie img{
-    width: 27%;
+    width: 25%;
+    padding: 10px;
     margin: 15px 7px;
     vertical-align: top;
 }
@@ -262,3 +263,8 @@ div.galerie img{
     background-color: darkslateblue;
 }
 
+.galerie a:hover{
+    background-color: yellow;
+    margin: 25px;
+    transition: 1s;
+}
