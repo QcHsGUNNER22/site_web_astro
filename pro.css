@@ -246,7 +246,7 @@ div.galerie{
     width: 100%;
     display: inline-block;
     text-align: center;
-    background-color: midnightblue;
+    background-color: white;
 }
 
 
@@ -255,16 +255,17 @@ div.galerie img{
     padding: 10px;
     margin: 15px 7px;
     vertical-align: top;
+    transform: .1s;
 }
 
 
 .galerie h1{
     color: black;
-    background-color: darkslateblue;
+    background-color: white;
 }
 
-.galerie a:hover{
-    background-color: yellow;
-    margin: 25px;
-    transition: 1s;
+.galerie img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
