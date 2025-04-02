@@ -17,7 +17,7 @@ iframe{
 }
 
 div.cover{
-    background: url(cover_overlay.png) no-repeat center/100% 100% ,url(cover.jpg) no-repeat center/cover;
+    background: url(PHOTO-SITE-ASTRO/overlay.webp) no-repeat center/100% 100% ,url(PHOTO-SITE-ASTRO/cover.webp) no-repeat center/cover;
     height: 400px;
     position: relative;
 }
@@ -41,7 +41,7 @@ h1{
 }
 
 div.cover p{
-    color: lightgray;
+    color: gray;
     text-align: center;
     margin-top: 0px;
     
@@ -105,7 +105,7 @@ a.contact-button:hover{
 }
 
 div.section-grise1{
-    background: url(triangle2white.svg) no-repeat center bottom/100%;
+    background: url(PHOTO-SITE-ASTRO/triangle2white.svg) no-repeat center bottom/100%;
     background-color: var(--color2);
     padding-bottom: 150px;
 }
@@ -134,7 +134,7 @@ div.section-grise1 p{
 
 
 div.section-grise2{
-    background: url(triangle1white.svg) no-repeat center top/100%;
+    background: url(PHOTO-SITE-ASTRO/triangle1white.svg) no-repeat center top/100%;
     background-color: var(--color2);
     padding-top: 125px;
 }
@@ -214,7 +214,7 @@ table.frame td{
 
 .portfolio-header{
     height: 90px;
-    background: url(header.jpg) no-repeat center/cover;
+    background: url(PHOTO-SITE-ASTRO/cover-2.webp) no-repeat center/cover;
     position: relative;
     
 }
