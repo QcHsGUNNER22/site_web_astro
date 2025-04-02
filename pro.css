@@ -189,11 +189,15 @@ table.col-portfolio{
 div.frame{
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px 30px;
     box-shadow: 0px 0px 10px 10px #00000010;
     
+}
+
+div.frame img{
+    width: 100px;
+    box-sizing:
+    border-box; border-radius: 50%;
 }
 
 div.frame h3{
@@ -331,9 +335,22 @@ div.galerie img{
         margin-bottom: 20px;
     }
 
-.gal-prin{
-    display: block;
-    width: 100%;
+    .gal-prin{
+        display: block;
+        width: 100%;
+    }
 
-}
+    div.frame{
+        margin: 0;
+        padding: 0;
+    }
+
+    div.frame img{
+        width: 70px;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
 }
