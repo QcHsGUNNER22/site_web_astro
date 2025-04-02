@@ -262,6 +262,7 @@ div.galerie img{
 .galerie h1{
     color: black;
     background-color: white;
+    margin: 10px;
 }
 
 .galerie img:hover{
