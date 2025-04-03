@@ -260,7 +260,7 @@ div.galerie{
 div.galerie img{
     width: 25%;
     padding: 10px;
-    margin: 15px 7px;
+    margin: 15px 0px;
     vertical-align: top;
     transform: .1s;
 }
@@ -293,7 +293,7 @@ div.galerie img{
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     img.cover-profile{
         height: 90px;
@@ -367,12 +367,15 @@ div.galerie img{
         font-size: 12px;
         margin-top: 5px;
     }
+
+    div.galerie{
+        width: 90%;
+    }
     
     div.galerie img{
-        width: 80%;
-        padding: 0px 0px;
-        margin: 10px 20px;
-        display: block;
+        width: 90%;
+        display: inline;
+        margin-left: 25px
     }
 
     .gal-prin2 img{
