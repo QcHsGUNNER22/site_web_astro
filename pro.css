@@ -287,6 +287,10 @@ div.galerie img{
     float: right;
 }
 
+.gal-prin2 img{
+    width: 70%;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -365,10 +369,19 @@ div.galerie img{
     }
     
     div.galerie img{
-        width: 100%;
+        width: 90%;
         padding: 0px 0px;
-        margin: 10px 10px;
+        margin: 10px 20px;
         display: block;
     }
+
+    .gal-prin2 img{
+        width: 100%;
+    }
+    
+
+
+
+
     
 }
