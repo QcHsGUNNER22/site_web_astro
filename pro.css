@@ -353,4 +353,22 @@ div.galerie img{
         height: 350px;
     }
 
+    .portfolio-header p{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    a.contact-button{
+        padding: 7px 15px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    
+    div.galerie img{
+        width: 100%;
+        padding: 0px 0px;
+        margin: 10px 10px;
+        display: block;
+    }
+    
 }
