@@ -265,6 +265,14 @@ div.galerie img{
     transform: .1s;
 }
 
+div.galerie video{
+    width: 25%;
+    padding: 10px;
+    margin: 15px 0px;
+    vertical-align: top;
+    transform: .1s;
+}
+
 
 .galerie h1{
     color: black;
