@@ -270,7 +270,6 @@ div.galerie video{
     padding: 10px;
     margin: 15px 0px;
     vertical-align: top;
-    transform: .1s;
 }
 
 
@@ -390,7 +389,12 @@ div.galerie video{
         width: 100%;
     }
     
-
+    div.galerie video{
+        width: 75%;
+        padding: 10px;
+        margin: 15px 0px;
+        vertical-align: top;
+    }
 
 
 
